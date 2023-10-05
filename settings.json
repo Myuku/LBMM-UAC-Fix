@@ -1,5 +1,7 @@
 {
   "daemon": "C:\\\"Program Files\"\\LittleBigMouse\\LittleBigMouse_Daemon.exe",
+  "start": "C:\\\"Program Files\"\\LittleBigMouse\\ElevatedStart.exe",
+  "end": "C:\\\"Program Files\"\\LittleBigMouse\\ElevatedEnd.exe",
   "interval": 1000,
   "debounce": 10000,
   "startup": true,
