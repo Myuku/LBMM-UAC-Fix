@@ -70,6 +70,6 @@ Windows 10 and Windows 11 (may work on previous versions as well)
 
 ## Donation
 
-Feel free to buy me a coffee :)
+Feel free to buy VinceBT a coffee :)
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate/?hosted_button_id=KKDV8JRNNRDAN)
