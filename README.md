@@ -10,7 +10,7 @@ If your mouse is behaving weirdly when on the side of the screen (the mouse curs
 
 The base version requires the user to constantly accept UAC prompts unless the user disables them. This is a workaround to elevate the start and end tasks to allow for a smoother transition.
 
-# New Requirements
+### New Requirements
 FOLLOW THE STANDARD GUIDE BEFORE READING THIS
 
 Create two tasks in the task scheduler
