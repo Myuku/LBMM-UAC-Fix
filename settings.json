@@ -1,13 +1,13 @@
 {
   "daemon": "C:\\\"Program Files\"\\LittleBigMouse\\LittleBigMouse_Daemon.exe",
-  "start": "C:\\\"Program Files\"\\LittleBigMouse\\ElevatedStart.exe",
-  "end": "C:\\\"Program Files\"\\LittleBigMouse\\ElevatedEnd.exe",
+  "scheduler": "C:\\Windows\\System32\\schtasks.exe",
   "interval": 1000,
-  "debounce": 10000,
+  "debounce": 1000,
   "startup": true,
   "blacklist": [
     "Back4Blood.exe",
     "destiny2.exe",
+    "BlackDesert64.exe",
     "dota2.exe",
     "FortniteClient-Win64-Shipping.exe",
     "FortniteClient-Win64-Shipping_BE.exe",

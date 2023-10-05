@@ -91,7 +91,7 @@ export class LittleBigMouseManager {
           try {
             this.logger.log(`Waiting ${this.settings.debounce} to turn on`);
             await sleep(this.settings.debounce, (cancel) => (this.canceller = cancel));
-            runCommandSync(this.settings.start, [""]);
+              runCommandSync(this.settings.scheduler, ["/run", "/TN", "\"LBMM Start\""]);
             this.isLBMActive = true;
             this.logger.log(`LBM switched on`);
           } catch (e) {
@@ -101,7 +101,7 @@ export class LittleBigMouseManager {
           try {
             this.logger.log(`Waiting ${this.settings.debounce} to turn off`);
             await sleep(this.settings.debounce, (cancel) => (this.canceller = cancel));
-            runCommandSync(this.settings.end, [""]);
+              runCommandSync(this.settings.scheduler, ["/run", "/TN", "\"LBMM End\""]);
             this.isLBMActive = false;
             this.logger.log(`LBM switched off`);
           } catch (e) {

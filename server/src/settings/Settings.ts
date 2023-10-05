@@ -13,8 +13,7 @@ export const pathToSettingsJson = path.resolve(process.cwd(), "settings.json");
 
 interface SettingsMap {
   daemon: string;
-  start: string;
-  end: string;
+  scheduler: string;
   interval: number;
   debounce: number;
   startup: boolean;
@@ -39,14 +38,10 @@ export class Settings {
     return this.json.daemon;
   }
 
-  get start() {
-    return this.json.start;
+  get scheduler() {
+    return this.json.scheduler;
   }
   
-  get end() {
-    return this.json.end;
-  }
-
   get interval() {
     return this.json.interval;
   }

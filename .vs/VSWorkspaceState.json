@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\server",
+    "\\server\\src",
+    "\\server\\src\\managers",
+    "\\server\\src\\settings"
+  ],
+  "SelectedNode": "\\server\\src\\settings\\Settings.ts",
+  "PreviewInSolutionExplorer": false
+}
