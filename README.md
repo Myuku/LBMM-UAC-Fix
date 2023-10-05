@@ -6,6 +6,22 @@ With LittleBigMouse enabled you may be facing issues while using borderless full
 
 If your mouse is behaving weirdly when on the side of the screen (the mouse cursor is stuck when playing Fortnite, moving camera in League of Legends is glitchy, right-click is stuck in Guild Wars 2), you may try this tool.
 
+## Branch Changes
+
+The base version requires the user to constantly accept UAC prompts unless the user disables them. This is a workaround to elevate the start and end tasks to allow for a smoother transition.
+
+# New Requirements
+FOLLOW THE STANDARD GUIDE BEFORE READING THIS
+
+Create two tasks in the task scheduler
+- "LBMM End" and "LBMM Start"
+- Tick off `Run with highest privileges` in General
+- Set the Action to `Start a program` with the program being the path to the location of `LittleBigMouse_Daemon.exe` in your file system
+- Add an argument `--stop` or `--start` for End and Start respectively
+
+Inside `settings.json`, the location of the scheduler can be changed if needed.
+
+
 ## Installation
 
 ### Basic
